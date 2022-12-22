@@ -1,0 +1,329 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 350px;
+    background: url(/images/banner.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+.menu {
+    height: 30px;
+    background-color: black;
+}
+
+.itens{
+    display: flex;
+    justify-content: right;
+    color: white;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-family: 'saira', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.itens li{
+    margin-right: 50px;
+}
+
+.section {
+    padding: 20px;
+    background-color: rgb(242, 245, 247);    
+}
+
+.section .title {
+    text-transform: uppercase;
+    font-family: 'chivo', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+
+.timeline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.epoch{
+    border-top: 1px solid rgb(94, 87, 87);
+    width: 250px;
+    height: 100px;
+    font-family: 'saira', sans-serif;
+    padding-top: 15px;
+    display: block;
+    justify-content: center;
+    
+}
+
+.epoch .age{
+
+    padding-top: 10px;
+
+}
+
+.ball{
+    background-color: #fff;
+    border: 1.5px solid rgb(102, 108, 194);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -25px;
+
+}
+
+.image {
+    margin-top: 50px;
+    height: 150px;
+    
+}
+
+.text{
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 30px 30px rgb(22 28 34 / 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Import */
+@font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFxY1FrRPXk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFwG1FrRPXk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFzh01rRPXk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyv01rRPXk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_4h_ekGrW.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_vB_ekGrW.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_WxjekGrW.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_FRjekGrW.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 100;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rDks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rCks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA7wTCks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA72jCks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA74TFks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA773Fks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v14/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rFks8xkw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFsOHYr-vcC7h8MklGBkrvmUG9rbpkisrTri3j2_Co.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrJ2nh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrQ2rh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFiOHYr-vcC7h8MklGBkrvmUG9rbpkisrTj6Ejx.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrN2zh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v11/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrT27h2wpk.ttf) format('truetype');
+  }
+  /* Variables */
+  /* Base */
+
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
