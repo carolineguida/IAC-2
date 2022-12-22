@@ -53,7 +53,7 @@ body {
 
 .epoch{
     border-top: 1px solid rgb(94, 87, 87);
-    width: 250px;
+    width: 450px;
     height: 100px;
     font-family: 'saira', sans-serif;
     padding-top: 15px;
@@ -326,4 +326,34 @@ body {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+
+
+
+  #table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #424343;
+    color: white;
   }
